@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-ing-es",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable commitlint config enforcing ING Spain issue format",
   "main": "index.js",
   "repository": {
