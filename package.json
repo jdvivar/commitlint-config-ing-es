@@ -1,12 +1,22 @@
 {
   "name": "commitlint-config-ing-es",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shareable commitlint config enforcing ING Spain issue format",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdvivar/commitlint-config-ing-es"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "commitlint"
+  ],
+  "author": "Daniel Vivar <mail@danielvivar.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/config-conventional": "^8.3.4",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
 }
