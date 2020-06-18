@@ -10,13 +10,24 @@
   "keywords": [
     "commitlint"
   ],
+  "scripts": {
+    "release": "standard-version"
+  },
   "author": "Daniel Vivar <mail@danielvivar.com>",
   "license": "MIT",
   "dependencies": {
-    "@commitlint/config-conventional": "^8.3.4",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "standard": "^14.3.4"
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.5",
+    "standard": "^14.3.4",
+    "standard-version": "^8.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }

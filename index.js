@@ -2,6 +2,7 @@ const merge = require('lodash/merge')
 
 module.exports = merge(
   require('@commitlint/config-conventional'), {
+    // This won´t work until this PR is published in a new version https://github.com/conventional-changelog/commitlint/pull/1692
     plugins: [
       {
         rules: {
